@@ -1,0 +1,65 @@
+/*
+Whoami: Baha alias LzM17
+Stack: Infosec nerd | Hacks and secures, eJPT certified, CTF Player(@fr334aks), BugBounty Hunter
+Mantra: code </>, eat(), sleep(), repeat()
+*/
+
+body {
+    background-color: #E2DFD2;
+    height: 100%;
+}
+.navbar-header {
+    overflow: hidden;
+    background-color: #61615b;
+    height: fit-content;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    margin-top: auto;
+}
+
+.navbar-header h1{
+    text-align: center;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+table {
+    border: 1px solid black;
+    font: 16px "Open Sans", Helvetica, Arial, sans-serif;
+    margin-top: 2%;
+    margin-left: 15%; 
+    margin-right: 30%;
+    width: 50%;
+    height: 50%;
+  }
+  
+  thead {
+    background-color: rgb(228, 240, 245);
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 6px 8px;
+}
+
+.class-names{
+  position: relative;
+  margin-top: 10px;
+}
+
+.dropdown-names {
+  display: inline-block;
+  min-width: 150px;
+  text-align: center;
+  position: relative;
+  margin-left: -5px;
+  color: #828282;
+  margin-top: -35px;
+}
+
+
+
+
+
+
+

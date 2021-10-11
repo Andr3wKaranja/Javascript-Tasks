@@ -1,0 +1,104 @@
+<!--
+Whoami: Baha alias LzM17
+Stack: Infosec nerd | Hacks and secures, eJPT certified, CTF Player(@fr334aks), BugBounty Hunter
+Mantra: code </>, eat(), sleep(), repeat()
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>STUDENT PERFORMANCE ANALYSIS</title>
+</head>
+<body>
+    <!-- Title Of Project  -->
+    <div class="navbar-header">
+        <h1>STUDENT PERFORMANCE ANALYSIS</h1>
+    </div>
+        
+            <table>
+                <thead>
+                  <tr >
+                    <th rowspan="2">Classes</th>
+                    <th rowspan="2">Names</th>
+                  </tr>
+                  <tr>
+                    <th>Code</th>
+                    <th>Cat1</th>
+                    <th>Cat2</th>
+                    <th>Exam</th>
+                    <th>Total</th>
+                    <th>Grade</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <th>
+                      <form>
+                        <button>reset</button>
+                        <select name="dropdown-1" id="class-names" onchange="loadNames()" >
+                          <option selected>choose</option>
+                          <option value="cl1">Class1</option>
+                          <option value="cl2">Class2</option>
+                          <option value="cl3">Class3</option>
+                          <option value="cl4">Class4</option>
+                          <option value="cl5">Class5</option>
+                      </select>
+                      </form>
+                    </th>
+                 <th>
+                  <span id="toDisplayNames">
+                    <select name="dropdown-2" id="dropdown-names" onchange="showPerformance()">
+                      <option selected>select</option>
+                      <option value="kevin">Kevin</option>
+                      <option value="mandy">Mandy</option>
+                      <option value="sharon">Sharon</option>
+                      <option value="peter">Peter</option>
+                      <option value="lucy">Lucy</option>
+                      <option value="brian">Brian</option>
+                      <option value="alex">Alex</option>
+                      <option value="wandia">Wandia</option>
+                      <option value="brandon">Brandon</option>
+                      <option value="beth">Beth</option>
+                      <option value="oscar">Oscar</option>
+                      <option value="chege">Chege</option>
+                      <option value="bobby">Bobby</option>
+                      <option value="laura">Laura</option>
+                      <option value="stacy">Stacy</option>
+                      <option value="ruth">Ruth</option>
+                      <option value="obed">Obed</option>
+                      <option value="abdi">Abdi</option>
+                      <option value="karen">Karen</option>
+                      <option value="cindy">Cindy</option>
+                      <option value="moses">Moses</option>
+                      <option value="esther">Esther</option>
+                      <option value="mary">Mary</option>
+                      <option value="simon">Simon</option>
+                      <option value="paul">Paul</option>
+                  </select>
+                  </span>
+                 </th>
+                 <th>
+                  <span id="toDisplayCode"></span>
+                 </th>
+                 <th>
+                  <span id="toDisplayCat1"></span>
+                 </th>
+                 <th>
+                  <span id="toDisplayCat2"></span>
+                 </th><th>
+                  <span id="toDisplayExam"></span>
+                 </th><th>
+                  <span id="toDisplayTotal"></span>
+                 </th><th>
+                  <span id="toDisplayGrade"></span>
+                 </th>
+                </tbody>
+              </table>
+        </div>
+    </div>
+</body>
+</html>
